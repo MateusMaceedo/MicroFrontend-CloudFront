@@ -1,23 +1,44 @@
-.example-spacer {
-  flex: 1 1 auto;
-}
+.app-header {
 
-.mat-toolbar {
-  padding-top: 0;
-  margin-top: 0;
-  background-color: black;
-  color: white;
-}
+  button {
+    margin: 0 16px;
+  }
 
-.mat-toolbar {
-  margin-top: -20px;
-}
+  .spacer {
+    flex: 1 1 auto;
+  }
 
-.mat-toolbar button {
-  color: white;
-}
+  .mat-toolbar {
+    padding-top: 0;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    padding: 0 256px;
+  }
 
-.container {
-  margin-top: 0;
-  padding-top: 0;
+  .mat-toolbar {
+    margin-top: -20px;
+  }
+
+  .mat-toolbar button {
+    color: white;
+  }
+
+  .container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  button[mat-raised-button] {
+    background-color: #8A39E1;  // Cor de fundo roxa
+    color: white;  // Cor do texto branca
+    border-color: #8A39E1;  // Cor da borda roxa
+    border-radius: 5px;
+  }
+
+  button[mat-stroked-button] {
+    border-color: white;  // Cor de fundo roxa
+    color: white;  // Cor do texto branca
+    border-radius: 5px;
+  }
 }
