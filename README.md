@@ -66,3 +66,5 @@ ng g c shared/header
 ng add @angular/material
 ng generate module app
 ```
+
+## Referencias
